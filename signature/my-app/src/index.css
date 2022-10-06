@@ -1,7 +1,18 @@
-.signature {
+/* .signature {
   display: block;
   margin: 100px;
   border: 2px solid red;
   width: 500px;
   height: 200px;
+} */
+
+.signature {
+  display: block;
+  margin: 100px;
+  width: 500px;
+  height: 200px;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d)
 }
